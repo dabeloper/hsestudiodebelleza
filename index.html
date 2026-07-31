@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HS - Estudio de Belleza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="https://wa.me/573005351412?text=Hola, Quisiera hacer una reservación." class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<div class="logo-container">
+    <div class="salon-logo">
+        <h1>H<span>S</span></h1>
+        <p>Estudio de Belleza</p>
+    </div>
+</div>
+
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#booking">Reservar Ahora</a></li>
+            <li><a href="#location">Encuéntranos</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.instagram.com/hs.estudio.belleza/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/hs.estudio.belleza/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@hs.estudio.belleza" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p>Bienvenido a HS</p>
+        <h2>Arte, Estilo y Elegancia</h2>
+        <p>Peluquería, Peinados, Tratamientos Capilares y mucho más.</p>
+        <a href="#booking" class="btn-book">Reservar Cita</a>
+    </div>
+</section>
+
+<section id="services" class="container">
+    <div class="section-title">
+        <p>Lo Que Ofrecemos</p>
+        <h2>Nuestros Servicios pensados para ti</h2>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card" data-cy="corte">
+          <i class="fas fa-cut"></i>
+          <h3>Corte de Cabello</h3>
+          <p>Cortes modernos, personalizados y de tendencia para renovar tu estilo.</p>
+          <span class="price-tag">Desde $15,000</span>
+      </div>
+
+      <div class="service-card" data-cy="otro">
+          <i class="fas fa-air-freshener"></i>
+          <h3>Peinado y Estilizado</h3>
+          <p>Keratina, alisado, spa capilar y cortes de tendencia.</p>
+          <span class="price-tag">Desde $50,000</span>
+      </div>
+
+      <div class="service-card" data-cy="otro">
+          <i class="fas fa-palette"></i>
+          <h3>Color y Balayage</h3>
+          <p>Tinte global, diseño de color y técnicas de balayage para iluminar tu rostro.</p>
+          <span class="price-tag">Desde $100,000</span>
+      </div>
+
+      <div class="service-card" data-cy="otro">
+          <i class="fas fa-wind"></i>
+          <h3>Cepillado y Planchado</h3>
+          <p>Peinados perfectos para el día a día o eventos con un acabado liso y duradero.</p>
+          <span class="price-tag">Desde $100,000</span>
+      </div>
+
+      <div class="service-card" data-cy="otro">
+          <i class="fas fa-hand-holding-heart"></i>
+          <h3>Botox y Repolarización</h3>
+          <p>Tratamientos de hidratación profunda y reparación extrema para cabello dañado.</p>
+          <span class="price-tag">Desde $200,000</span>
+      </div>
+
+      <div class="service-card" data-cy="alisado">
+          <i class="fas fa-magic"></i>
+          <h3>Alisados Avanzados</h3>
+          <p>Transformación total con alisado progresivo y alisado orgánico libre de formol.</p>
+          <span class="price-tag">Desde $250,000</span>
+      </div>
+    </div>
+</section>
+
+<section id="booking" style="background: #ffffffeb;">
+    <div class="container">
+        <div class="section-title">
+            <p>Visítanos</p>
+            <h2>Reserva tu cita y encuentra nuestro salón</h2>
+        </div>
+
+        <div class="booking-map-flex">
+            <div class="booking-form">
+                <h3>Reserva Online</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu Nombre Completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Número de Teléfono (WhatsApp)" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service-type" required>
+                            <option value="" disabled selected>Seleccionar Servicio</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="appointment-date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="special-requests" placeholder="¿Alguna solicitud especial?" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Solicitar Reserva</button>
+                </form>
+            </div>
+            <div id="location" class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.9830828190304!2d-76.50455883258817!3d3.487742953358075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a88731eefaeb%3A0x985162f3f0b5f9a!2sConjunto%20Portal%20del%20R%C3%ADo!5e0!3m2!1ses-419!2sco!4v1785451778649!5m2!1ses-419!2sco"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <h4>HS ESTUDIO DE BELLEZA</h4>
+        <div class="footer-info">
+            <p><i class="fas fa-map-marker-alt" style="color: #d4af37; margin-right: 8px;"></i> HS - Todo en belleza, en un solo lugar</p>
+            <p><i class="fas fa-phone" style="color: #d4af37; margin-right: 8px;"></i> +57 3005351412</p>
+            <p><i class="fas fa-envelope" style="color: #d4af37; margin-right: 8px;"></i> hsestudiobelleza@gmail.com</p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/hs.estudio.belleza/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/hs.estudio.belleza/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@hs.estudio.belleza" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+    <div class="copy">
+        <p>&copy; 2026</p>
+        <p style="font-size: 0.7rem;">Designed with ❤️ by <a href="https://dabeloper.com" target="_blank">DABELOPER</a></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
