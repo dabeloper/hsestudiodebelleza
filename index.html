@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 </head>
 <body>
 
@@ -16,7 +20,7 @@
 
 <div class="logo-container">
     <div class="salon-logo">
-        <h1>H<span>S</span></h1>
+        <img src="HS.png" alt="HS" class="salon-logo-image">
         <p>Estudio de Belleza</p>
     </div>
 </div>
@@ -63,7 +67,7 @@
       <div class="service-card" data-cy="otro">
           <i class="fas fa-air-freshener"></i>
           <h3>Peinado y Estilizado</h3>
-          <p>Keratina, alisado, spa capilar y cortes de tendencia.</p>
+          <p>Peinados perfectos para el día a día o eventos con un acabado liso y duradero.</p>
           <span class="price-tag">Desde $50,000</span>
       </div>
 
@@ -77,7 +81,7 @@
       <div class="service-card" data-cy="otro">
           <i class="fas fa-wind"></i>
           <h3>Cepillado y Planchado</h3>
-          <p>Peinados perfectos para el día a día o eventos con un acabado liso y duradero.</p>
+          <p>Luce un estilo impecable, dejamos tu cabello suave, manejable y con un brillo espectacular.</p>
           <span class="price-tag">Desde $100,000</span>
       </div>
 
@@ -91,7 +95,7 @@
       <div class="service-card" data-cy="alisado">
           <i class="fas fa-magic"></i>
           <h3>Alisados Avanzados</h3>
-          <p>Transformación total con alisado progresivo y alisado orgánico libre de formol.</p>
+          <p>Transformación total con Keratina, alisado progresivo y alisado orgánico libre de formol.</p>
           <span class="price-tag">Desde $250,000</span>
       </div>
     </div>
@@ -109,21 +113,49 @@
                 <h3>Reserva Online</h3>
                 <form>
                     <div class="form-group">
-                        <input type="text" id="name" placeholder="Tu Nombre Completo" required>
+                        <label class="mobile-field-label" for="name">Nombre</label>
+                        <div class="mobile-input-with-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="name" placeholder="Tu Nombre Completo" required>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="phone" placeholder="Número de Teléfono (WhatsApp)" required>
+                        <label class="mobile-field-label" for="phone">Celular</label>
+                        <div class="mobile-input-with-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                            <input type="tel" id="phone" placeholder="Número de Teléfono (WhatsApp)" required>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <select id="service-type" required>
-                            <option value="" disabled selected>Seleccionar Servicio</option>
-                        </select>
+                        <label class="mobile-field-label" for="service-type">Servicio</label>
+                        <div class="mobile-input-with-icon">
+                            <i class="fas fa-cut"></i>
+                            <select id="service-type" required>
+                                <option value="" disabled selected>Seleccionar Servicio</option>
+                                <option value="corte">Corte</option>
+                                <option value="tinte">Tinte</option>
+                                <option value="planchado">Planchado</option>
+                                <option value="cepillado">Cepillado</option>
+                                <option value="alisado">Alisado</option>
+                                <option value="repolarizacion">Repolarización</option>
+                                <option value="balayage">Balayage</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="date" id="appointment-date" required>
+                        <label class="mobile-field-label" for="appointment-date">Fecha</label>
+                        <div class="mobile-input-with-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                            <input type="date" id="appointment-date" required>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <textarea id="special-requests" placeholder="¿Alguna solicitud especial?" rows="3"></textarea>
+                        <label class="mobile-field-label" for="special-requests">¿Alguna solicitud especial?</label>
+                        <div class="mobile-input-with-icon">
+                            <i class="fas fa-comment-dots"></i>
+                            <textarea id="special-requests" placeholder="¿Alguna solicitud especial?" rows="3"></textarea>
+                        </div>
                     </div>
                     <button type="submit" class="btn-submit">Solicitar Reserva</button>
                 </form>
@@ -158,6 +190,6 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
