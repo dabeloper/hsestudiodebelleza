@@ -1,9 +1,9 @@
 {
   "promotions": {
-    "enabledDate": "2026-09-07T19:59:59-05:00"
+    "enabledDate": "2026-09-30T19:59:59-05:00"
   },
   "discount-banner": {
-    "enabled": false,
+    "enabled": true,
     "title": "Temporada de Descuentos",
     "counterLabel": "Termina en"
   },
@@ -19,46 +19,67 @@
     "title": "Regálate un momento especial",
     "cards": [
       {
-        "icon": "fas fa-cut",
-        "discount": "10% OFF",
-        "title": "Corte + Diseño",
-        "description": "Renueva tu estilo con un corte personalizado y un acabado de tendencia.",
-        "priceText": "Consultar Precio"
+        "icon": "fas fa-microscope",
+        "discount": "50% OFF",
+        "title": "Diagnóstico Capilar",
+        "description": "Revisión capilar con capilógrafo y lavado especializado del cuero cabelludo para conocer y atender mejor las necesidades de tu cabello.",
+        "priceText": "$30,000"
       },
       {
-        "icon": "fas fa-palette",
-        "discount": "10% OFF",
-        "title": "Color y Balayage",
-        "description": "Ilumina tu rostro con una asesoría de color y una técnica hecha para ti.",
-        "priceText": "Consultar Precio"
+        "icon": "fas fa-hand-holding-medical",
+        "discount": "40% OFF",
+        "title": "Plan Capilar Personalizado",
+        "description": "Diagnóstico con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
+        "priceText": "Desde $60,000"
       },
       {
-        "icon": "fas fa-wind",
-        "discount": "10% OFF",
-        "title": "Cepillado + Planchado",
-        "description": "Disfruta un acabado brillante, suave y listo para cualquier ocasión.",
-        "priceText": "Consultar Precio"
+        "icon": "fas fa-brush",
+        "discount": "20% OFF",
+        "title": "Color Renovado",
+        "description": "Corte, tinte de raíces y cepillado para mantener tu color impecable y tu estilo siempre fresco.",
+        "priceText": "$80,000"
       },
       {
-        "icon": "fas fa-hand-holding-heart",
-        "discount": "10% OFF",
-        "title": "Botox Capilar",
-        "description": "Recupera la hidratación y el movimiento de tu cabello con un tratamiento intensivo.",
-        "priceText": "Consultar Precio"
+        "icon": "fas fa-smile-beam",
+        "discount": "15% OFF",
+        "title": "Beauty Date",
+        "description": "Lavado, cepillado o peinado y manicura en semi para disfrutar una experiencia de belleza completa en una sola visita.",
+        "priceText": "$85,000"
       },
       {
-        "icon": "fas fa-magic",
-        "discount": "10% OFF",
-        "title": "Alisado Avanzado",
-        "description": "Una transformación duradera con productos seleccionados para tu cabello.",
-        "priceText": "Consultar Precio"
+        "icon": "fas fa-shower",
+        "discount": "20% OFF",
+        "title": "Brillo Express",
+        "description": "Lavado, hidratación profunda con Vapor-Ozono y peinado para devolverle suavidad, brillo y movimiento a tu cabello.",
+        "priceText": "$96,000"
       },
       {
-        "icon": "fas fa-star",
+        "icon": "fas fa-spray-can-sparkles",
         "discount": "10% OFF",
-        "title": "Experiencia HS",
-        "description": "Combina dos servicios seleccionados y disfruta una experiencia completa de belleza.",
-        "priceText": "Consultar Precio"
+        "title": "Brillo Total",
+        "description": "Consientete con nuestro tratamiento capilar que incluye exfoliación, brillo, peinado u ondulado, adicional recibe un diagnostico capilar.",
+        "priceText": "$102,000"
+      },
+      {
+        "icon": "fas fa-layer-group",
+        "discount": "10% OFF",
+        "title": "Combo Alisado",
+        "description": "Tratamiento alisador, lavado especializado sin sal, planchado profesional y llevate a casa 1 ampolleta para nutrir tu cabello.",
+        "priceText": "$144,000"
+      },
+      {
+        "icon": "fas fa-wand-magic-sparkles",
+        "discount": "15% OFF",
+        "title": "Alisado Premium",
+        "description": "Alisado orgánico, corte de puntas e hidratación sellante con Vapor-Ozono para lograr un cabello más suave, manejable y con un acabado natural.",
+        "priceText": "$255,000"
+      },
+      {
+        "icon": "fas fa-sun",
+        "discount": "20% OFF",
+        "title": "Balayage Glow",
+        "description": "Balayage personalizado, hidratación con Vapor-Ozono y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
+        "priceText": "$280,000"
       }
     ]
   },
@@ -74,60 +95,18 @@
         "priceText": "Desde $15,000"
       },
       {
+        "value": "manicura-pedicura",
+        "icon": "fas fa-paintbrush",
+        "title": "Manicura & Pedicura",
+        "description": "Tradicional, Uñas tips, press on, semi, todo en Manicura o Pedicura para lucir unas manos y pies impecables y llenos de color.",
+        "priceText": "Desde $20,000"
+      },
+      {
         "value": "cepillado",
         "icon": "fas fa-air-freshener",
         "title": "Peinado y Estilizado",
         "description": "Peinados perfectos para el día a día o eventos con un acabado liso y duradero.",
         "priceText": "Desde $50,000"
-      },
-      {
-        "value": "combo",
-        "icon": "fas fa-palette",
-        "title": "Color y Balayage",
-        "description": "Tinte global, diseño de color y técnicas de balayage para iluminar tu rostro.",
-        "priceText": "Desde $100,000"
-      },
-      {
-        "value": "combo",
-        "icon": "fas fa-wind",
-        "title": "Cepillado y Planchado",
-        "description": "Luce un estilo impecable, dejamos tu cabello suave, manejable y con un brillo espectacular.",
-        "priceText": "Desde $100,000"
-      },
-      {
-        "value": "repolarizacion",
-        "icon": "fas fa-hand-holding-heart",
-        "title": "Botox y Repolarización",
-        "description": "Tratamientos de hidratación profunda con Vapor-Ozono y reparación extrema para cabello dañado.",
-        "priceText": "Desde $200,000"
-      },
-      {
-        "value": "alisado",
-        "icon": "fas fa-magic",
-        "title": "Alisados Avanzados",
-        "description": "Transformación total con Keratina, alisado progresivo y alisado orgánico libre de formol.",
-        "priceText": "Desde $300,000"
-      },
-      {
-        "value": "otro",
-        "icon": "fas fa-hand-sparkles",
-        "title": "Brillo Express",
-        "description": "Lavado, hidratación profunda con Vapor-Ozono y peinado para devolverle suavidad, brillo y movimiento a tu cabello.",
-        "priceText": "$120,000"
-      },
-      {
-        "value": "alisado",
-        "icon": "fas fa-wand-magic-sparkles",
-        "title": "Alisado Premium",
-        "description": "Alisado orgánico, corte de puntas e hidratación sellante con Vapor-Ozono para lograr un cabello más suave, manejable y con un acabado natural.",
-        "priceText": "$300,000"
-      },
-      {
-        "value": "combo",
-        "icon": "fas fa-star",
-        "title": "Look Completo",
-        "description": "Lavado, hidratación con Vapor-Ozono, planchado u ondulado y manicura simple para lucir espectacular de pies a cabeza.",
-        "priceText": "$140,000"
       },
       {
         "value": "capilografo",
@@ -138,70 +117,21 @@
       },
       {
         "value": "combo",
-        "icon": "fas fa-hand-scissors",
-        "title": "Renovación Total",
-        "description": "Corte, manicura, lavado y cepillado para lucir un estilo fresco, ligero y completamente renovado.",
-        "priceText": "Desde $100,000"
-      },
-      {
-        "value": "combo",
-        "icon": "fas fa-magic",
+        "icon": "fas fa-gem",
         "title": "Glamour en tu Cabello",
         "description": "Lavado, cepillado y elección entre planchado u ondulado para lograr un acabado elegante y lleno de movimiento.",
         "priceText": "$100,000"
       },
       {
-        "value": "combo",
-        "icon": "fas fa-star",
-        "title": "Corte & Glow",
-        "description": "Renueva tus puntas, recupera la suavidad y luce un peinado impecable con este combo de cuidado y estilo.",
-        "priceText": "Desde $100,000"
-      },
-      {
-        "value": "combo",
-        "icon": "fas fa-feather-alt",
-        "title": "Efecto Seda",
-        "description": "Botox capilar y cepillado para darle a tu cabello una apariencia más suave, brillante y manejable.",
-        "priceText": "Desde $150,000"
-      },
-      {
-        "value": "repolarizacion",
-        "icon": "fas fa-heart",
-        "title": "Rescate Capilar",
-        "description": "Repolarización, lavado y peinado para consentir el cabello opaco, seco o maltratado.",
-        "priceText": "$120,000"
-      },
-      {
-        "value": "balayage",
-        "icon": "fas fa-sun",
-        "title": "Balayage Glow",
-        "description": "Balayage personalizado, hidratación con Vapor-Ozono y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
-        "priceText": "$350,000"
-      },
-      {
         "value": "tinte",
-        "icon": "fas fa-palette",
+        "icon": "fas fa-droplet",
         "title": "Color & Brillo",
         "description": "Tinte completo, hidratación con Vapor-Ozono y cepillado para renovar tu color y lograr un acabado brillante y cuidado.",
         "priceText": "$100,000"
       },
       {
-        "value": "capilografo",
-        "icon": "fas fa-hand-holding-medical",
-        "title": "Plan Capilar Personalizado",
-        "description": "Diagnóstico con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
-        "priceText": "Desde $100,000"
-      },
-      {
-        "value": "alisado",
-        "icon": "fas fa-water",
-        "title": "Liso Natural",
-        "description": "Alisado orgánico, hidratación con Vapor-Ozono y cepillado para conseguir un cabello más manejable, suave y con un acabado natural.",
-        "priceText": "$300,000"
-      },
-      {
         "value": "otro",
-        "icon": "fas fa-hand-sparkles",
+        "icon": "fas fa-smile-beam",
         "title": "Beauty Date",
         "description": "Lavado, cepillado o peinado y manicura en semi para disfrutar una experiencia de belleza completa en una sola visita.",
         "priceText": "$100,000"
@@ -215,17 +145,115 @@
       },
       {
         "value": "combo",
-        "icon": "fas fa-star",
-        "title": "Combo Alisado",
-        "description": "Tratamiento alisador, lavado especializado sin sal, planchado profesional y llevate a casa 1 ampolleta paea nutrir tu cabello.",
-        "priceText": "$160,000"
+        "icon": "fas fa-swatchbook",
+        "title": "Color y Balayage",
+        "description": "Tinte global, diseño de color y técnicas de balayage para iluminar tu rostro.",
+        "priceText": "Desde $100,000"
       },
       {
         "value": "combo",
-        "icon": "fas fa-star",
+        "icon": "fas fa-wind",
+        "title": "Cepillado y Planchado",
+        "description": "Luce un estilo impecable, dejamos tu cabello suave, manejable y con un brillo espectacular.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-hand-scissors",
+        "title": "Renovación Total",
+        "description": "Corte, manicura, lavado y cepillado para lucir un estilo fresco, ligero y completamente renovado.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-scissors",
+        "title": "Corte & Glow",
+        "description": "Renueva tus puntas, recupera la suavidad y luce un peinado impecable con este combo de cuidado y estilo.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "capilografo",
+        "icon": "fas fa-hand-holding-medical",
+        "title": "Plan Capilar Personalizado",
+        "description": "Diagnóstico con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-spray-can-sparkles",
         "title": "Brillo Total",
         "description": "Consientete con nuestro tratamiento capilar que incluye exfoliación, brillo, peinado u ondulado, adicional recibe un diagnostico capilar.",
         "priceText": "$120,000"
+      },
+      {
+        "value": "repolarizacion",
+        "icon": "fas fa-heart",
+        "title": "Rescate Capilar",
+        "description": "Repolarización, lavado y peinado para consentir el cabello opaco, seco o maltratado.",
+        "priceText": "$120,000"
+      },
+      {
+        "value": "otro",
+        "icon": "fas fa-shower",
+        "title": "Brillo Express",
+        "description": "Lavado, hidratación profunda con Vapor-Ozono y peinado para devolverle suavidad, brillo y movimiento a tu cabello.",
+        "priceText": "$120,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-spa",
+        "title": "Look Completo",
+        "description": "Lavado, hidratación con Vapor-Ozono, planchado u ondulado y manicura simple para lucir espectacular de pies a cabeza.",
+        "priceText": "$140,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-feather-alt",
+        "title": "Efecto Seda",
+        "description": "Botox capilar y cepillado para darle a tu cabello una apariencia más suave, brillante y manejable.",
+        "priceText": "Desde $150,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-layer-group",
+        "title": "Combo Alisado",
+        "description": "Tratamiento alisador, lavado especializado sin sal, planchado profesional y llevate a casa 1 ampolleta para nutrir tu cabello.",
+        "priceText": "$160,000"
+      },
+      {
+        "value": "repolarizacion",
+        "icon": "fas fa-hand-holding-heart",
+        "title": "Botox y Repolarización",
+        "description": "Tratamientos de hidratación profunda con Vapor-Ozono y reparación extrema para cabello dañado.",
+        "priceText": "Desde $200,000"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-bolt",
+        "title": "Alisados Avanzados",
+        "description": "Transformación total con Keratina, alisado progresivo y alisado orgánico libre de formol.",
+        "priceText": "Desde $300,000"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-wand-magic-sparkles",
+        "title": "Alisado Premium",
+        "description": "Alisado orgánico, corte de puntas e hidratación sellante con Vapor-Ozono para lograr un cabello más suave, manejable y con un acabado natural.",
+        "priceText": "$300,000"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-water",
+        "title": "Liso Natural",
+        "description": "Alisado orgánico, hidratación con Vapor-Ozono y cepillado para conseguir un cabello más manejable, suave y con un acabado natural.",
+        "priceText": "$300,000"
+      },
+      {
+        "value": "balayage",
+        "icon": "fas fa-sun",
+        "title": "Balayage Glow",
+        "description": "Balayage personalizado, hidratación con Vapor-Ozono y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
+        "priceText": "$350,000"
       }
     ]
   }
