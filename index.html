@@ -14,7 +14,16 @@
 </head>
 <body>
 
-<a href="https://wa.me/573005351412?text=Hola, Quisiera hacer una reservación." class="whatsapp-float" target="_blank">
+<div id="discount-banner" class="discount-banner" role="status" aria-live="polite" hidden>
+    <p>
+        <i class="fas fa-info-circle"></i> 
+        <strong id="discount-banner-title"></strong>
+    </p>
+    <span id="discount-banner-counter" class="discount-banner-counter" aria-live="polite"></span>
+    <button type="button" class="discount-banner-close" aria-label="Cerrar banner de descuentos">&times;</button>
+</div>
+
+<a id="whatsapp-button" href="https://wa.me/573005351412?text=Hola, Quisiera hacer una reservación." class="whatsapp-float" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
 
@@ -29,6 +38,7 @@
     <nav>
         <ul class="nav-links">
             <li><a href="#home">Inicio</a></li>
+            <li id="promos-link"><a href="#promos">Promociones</a></li>
             <li><a href="#services">Servicios</a></li>
             <li><a href="#booking">Reservar Ahora</a></li>
             <li><a href="#location">Encuéntranos</a></li>
@@ -50,14 +60,25 @@
     </div>
 </section>
 
+<section id="promos" class="promos-section">
+    <div class="container">
+        <div class="section-title promo-section-title">
+            <p id="promos-eyebrow"></p>
+            <h2 id="promos-title"></h2>
+        </div>
+
+        <div id="promos-grid" class="services-grid promos-grid"></div>
+    </div>
+</section>
+
 <section id="services" class="container">
     <div class="section-title">
-        <p>Lo Que Ofrecemos</p>
-        <h2>Nuestros Servicios pensados para ti</h2>
+        <p id="services-eyebrow"></p>
+        <h2 id="services-title"></h2>
     </div>
 
-    <div class="services-grid">
-      <div class="service-card" data-cy="corte">
+    <div id="services-grid" class="services-grid">
+        <div class="service-card" data-cy="corte">
           <i class="fas fa-cut"></i>
           <h3>Corte de Cabello</h3>
           <p>Cortes modernos, personalizados y de tendencia para renovar tu estilo.</p>
@@ -139,6 +160,8 @@
                                 <option value="alisado">Alisado</option>
                                 <option value="repolarizacion">Repolarización</option>
                                 <option value="balayage">Balayage</option>
+                                <option value="capilografo">Capilografo</option>
+                                <option value="combo">Combo</option>
                                 <option value="otro">Otro</option>
                             </select>
                         </div>
@@ -189,6 +212,18 @@
         <p style="font-size: 0.7rem;">Designed with ❤️ by <a href="https://dabeloper.com" target="_blank">DABELOPER</a></p>
     </div>
 </footer>
+
+<div id="promo-popup" class="promo-popup" role="dialog" aria-modal="true" aria-labelledby="promo-popup-title" hidden>
+    <div class="promo-popup-backdrop" data-popup-close></div>
+    <div class="promo-popup-content">
+        <button type="button" class="promo-popup-close" data-popup-close aria-label="Cerrar promociones">&times;</button>
+        <i class="fas fa-gift promo-popup-icon" aria-hidden="true"></i>
+        <p id="promo-popup-eyebrow" class="promo-popup-eyebrow"></p>
+        <h2 id="promo-popup-title"></h2>
+        <p id="promo-popup-description"></p>
+        <a id="promo-popup-link" href="#promos" class="btn-book" data-popup-close></a>
+    </div>
+</div>
 
     <script src="script.js"></script>
 </body>

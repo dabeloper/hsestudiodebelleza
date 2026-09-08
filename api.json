@@ -1,0 +1,218 @@
+{
+  "promotions": {
+    "enabledDate": "2026-09-08T15:59:59-05:00"
+  },
+  "discount-banner": {
+    "enabled": true,
+    "title": "Temporada de Descuentos",
+    "counterLabel": "Termina en"
+  },
+  "promo-popup": {
+    "eyebrow": "Promociones especiales",
+    "title": "Descuentos de hasta 50%",
+    "description": "Aprovecha nuestras promociones y regálate un momento especial. Revisa nuestras promociones y reserva tu cita.",
+    "linkText": "Ver promociones",
+    "linkHref": "#promos"
+  },
+  "promos": {
+    "eyebrow": "Nuestras Promociones",
+    "title": "Regálate un momento especial",
+    "cards": [
+      {
+        "icon": "fas fa-cut",
+        "discount": "10% OFF",
+        "title": "Corte + Diseño",
+        "description": "Renueva tu estilo con un corte personalizado y un acabado de tendencia.",
+        "priceText": "Consultar Precio"
+      },
+      {
+        "icon": "fas fa-palette",
+        "discount": "10% OFF",
+        "title": "Color y Balayage",
+        "description": "Ilumina tu rostro con una asesoría de color y una técnica hecha para ti.",
+        "priceText": "Consultar Precio"
+      },
+      {
+        "icon": "fas fa-wind",
+        "discount": "10% OFF",
+        "title": "Cepillado + Planchado",
+        "description": "Disfruta un acabado brillante, suave y listo para cualquier ocasión.",
+        "priceText": "Consultar Precio"
+      },
+      {
+        "icon": "fas fa-hand-holding-heart",
+        "discount": "10% OFF",
+        "title": "Botox Capilar",
+        "description": "Recupera la hidratación y el movimiento de tu cabello con un tratamiento intensivo.",
+        "priceText": "Consultar Precio"
+      },
+      {
+        "icon": "fas fa-magic",
+        "discount": "10% OFF",
+        "title": "Alisado Avanzado",
+        "description": "Una transformación duradera con productos seleccionados para tu cabello.",
+        "priceText": "Consultar Precio"
+      },
+      {
+        "icon": "fas fa-star",
+        "discount": "10% OFF",
+        "title": "Experiencia HS",
+        "description": "Combina dos servicios seleccionados y disfruta una experiencia completa de belleza.",
+        "priceText": "Consultar Precio"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Lo Que Ofrecemos",
+    "title": "Nuestros Servicios pensados para ti",
+    "cards": [
+      {
+        "value": "corte",
+        "icon": "fas fa-cut",
+        "title": "Corte de Cabello",
+        "description": "Cortes modernos, personalizados y de tendencia para renovar tu estilo.",
+        "priceText": "Desde $15,000"
+      },
+      {
+        "value": "cepillado",
+        "icon": "fas fa-air-freshener",
+        "title": "Peinado y Estilizado",
+        "description": "Peinados perfectos para el día a día o eventos con un acabado liso y duradero.",
+        "priceText": "Desde $50,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-palette",
+        "title": "Color y Balayage",
+        "description": "Tinte global, diseño de color y técnicas de balayage para iluminar tu rostro.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-wind",
+        "title": "Cepillado y Planchado",
+        "description": "Luce un estilo impecable, dejamos tu cabello suave, manejable y con un brillo espectacular.",
+        "priceText": "Desde $100,000"
+      },
+      {
+        "value": "repolarizacion",
+        "icon": "fas fa-hand-holding-heart",
+        "title": "Botox y Repolarización",
+        "description": "Tratamientos de hidratación profunda y reparación extrema para cabello dañado.",
+        "priceText": "Desde $200,000"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-magic",
+        "title": "Alisados Avanzados",
+        "description": "Transformación total con Keratina, alisado progresivo y alisado orgánico libre de formol.",
+        "priceText": "Desde $250,000"
+      },
+      {
+        "value": "otro",
+        "icon": "fas fa-hand-sparkles",
+        "title": "Brillo Express",
+        "description": "Lavado, hidratación profunda y peinado para devolverle suavidad, brillo y movimiento a tu cabello.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-wand-magic-sparkles",
+        "title": "Liso Perfecto",
+        "description": "Alisado orgánico, corte de puntas e hidratación sellante para lograr un cabello más suave, manejable y con un acabado natural.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-star",
+        "title": "Look Completo",
+        "description": "Lavado, hidratación, planchado u ondulado y manicura simple para lucir espectacular de pies a cabeza.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "capilografo",
+        "icon": "fas fa-microscope",
+        "title": "Diagnóstico Capilar",
+        "description": "Revisión capilar con capilógrafo y lavado especializado del cuero cabelludo para conocer y atender mejor las necesidades de tu cabello.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-hand-scissors",
+        "title": "Renovación Total",
+        "description": "Corte, lavado y cepillado para lucir un estilo fresco, ligero y completamente renovado.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-magic",
+        "title": "Glamour en tu Cabello",
+        "description": "Lavado, cepillado y elección entre planchado u ondulado para lograr un acabado elegante y lleno de movimiento.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-star",
+        "title": "Corte & Glow",
+        "description": "Renueva tus puntas, recupera la suavidad y luce un peinado impecable con este combo de cuidado y estilo.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-feather-alt",
+        "title": "Efecto Seda",
+        "description": "Botox capilar y cepillado para darle a tu cabello una apariencia más suave, brillante y manejable.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "repolarizacion",
+        "icon": "fas fa-heart",
+        "title": "Rescate Capilar",
+        "description": "Repolarización, lavado y peinado para consentir el cabello opaco, seco o maltratado.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "balayage",
+        "icon": "fas fa-sun",
+        "title": "Balayage Glow",
+        "description": "Balayage personalizado, hidratación y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "tinte",
+        "icon": "fas fa-palette",
+        "title": "Color & Brillo",
+        "description": "Tinte completo, hidratación y cepillado para renovar tu color y lograr un acabado brillante y cuidado.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "capilografo",
+        "icon": "fas fa-hand-holding-medical",
+        "title": "Plan Capilar Personalizado",
+        "description": "Diagnóstico con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "alisado",
+        "icon": "fas fa-water",
+        "title": "Liso Natural",
+        "description": "Alisado orgánico, hidratación y cepillado para conseguir un cabello más manejable, suave y con un acabado natural.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "otro",
+        "icon": "fas fa-hand-sparkles",
+        "title": "Beauty Date",
+        "description": "Lavado, peinado y manicura simple para disfrutar una experiencia de belleza completa en una sola visita.",
+        "priceText": "Consultar precio"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-brush",
+        "title": "Color Renovado",
+        "description": "Corte, tinte de raíces y cepillado para mantener tu color impecable y tu estilo siempre fresco.",
+        "priceText": "Consultar precio"
+      }
+    ]
+  }
+}
