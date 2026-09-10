@@ -80,6 +80,13 @@
         "title": "Balayage Glow",
         "description": "Balayage personalizado, hidratación con Vapor-Ozono y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
         "priceText": "$280,000"
+      },
+      {
+        "icon": "fas fa-user-friends",
+        "discount": "15% OFF",
+        "title": "Duo Liso - Trae a tu amiga",
+        "description": "Incluye 2!! 2 keratinas, 2 corte de puntas y 2 masajes capilares con Vapor-Ozono.",
+        "priceText": "Desde $467,000"
       }
     ]
   },
@@ -118,7 +125,7 @@
       {
         "value": "combo",
         "icon": "fas fa-gem",
-        "title": "Glamour en tu Cabello",
+        "title": "Glamour Capilar",
         "description": "Lavado, cepillado y elección entre planchado u ondulado para lograr un acabado elegante y lleno de movimiento.",
         "priceText": "$100,000"
       },
@@ -180,6 +187,27 @@
       },
       {
         "value": "combo",
+        "icon": "fas fa-seedling",
+        "title": "Detox capilar",
+        "description": "Lavado especializado, exfoliación capilar, hidratación y cepillado.",
+        "priceText": "$100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fa-solid fa-shield",
+        "title": "Puntas Sanas",
+        "description": "Corte de puntas, ampolleta, hidratación profunda y cepillado.",
+        "priceText": "$100,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-hands",
+        "title": "Seda + Manos",
+        "description": "Hidratación, planchado y uñas semi.",
+        "priceText": "$120,000"
+      },
+      {
+        "value": "combo",
         "icon": "fas fa-spray-can-sparkles",
         "title": "Brillo Total",
         "description": "Consientete con nuestro tratamiento capilar que incluye exfoliación, brillo, peinado u ondulado, adicional recibe un diagnostico capilar.",
@@ -221,6 +249,13 @@
         "priceText": "$160,000"
       },
       {
+        "value": "combo",
+        "icon": "fas fa-face-grin-hearts",
+        "title": "Amor Propio",
+        "description": "Hidratación efecto liso, uñas semi, cepillado y corte de puntas.",
+        "priceText": "$160,000"
+      },
+      {
         "value": "repolarizacion",
         "icon": "fas fa-hand-holding-heart",
         "title": "Botox y Repolarización",
@@ -254,6 +289,27 @@
         "title": "Balayage Glow",
         "description": "Balayage personalizado, hidratación con Vapor-Ozono y peinado para iluminar tu cabello con un cambio moderno y lleno de luz.",
         "priceText": "$350,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-magic",
+        "title": "Cambio Total",
+        "description": "Masaje capilar con Vapor-Ozono, keratina, manicura semi y pedicura semi.",
+        "priceText": "$350,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-crown",
+        "title": "Lisa Siempre",
+        "description": "Keratina y 2 hidrataciones de mantenimiento.",
+        "priceText": "$360,000"
+      },
+      {
+        "value": "combo",
+        "icon": "fas fa-user-friends",
+        "title": "Duo Liso - Trae a tu amiga",
+        "description": "Incluye 2!! 2 keratinas, 2 corte de puntas y 2 masajes capilares con Vapor-Ozono.",
+        "priceText": "Desde $550,000"
       }
     ]
   }
