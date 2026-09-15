@@ -60,21 +60,22 @@
     </div>
 </section>
 
-<section id="promos" class="promos-section">
-    <div class="container">
-        <div class="section-title promo-section-title">
-            <p id="promos-eyebrow"></p>
-            <h2 id="promos-title"></h2>
-        </div>
-
-        <div id="promos-grid" class="services-grid promos-grid"></div>
-    </div>
-</section>
-
 <section id="services" class="container">
     <div class="section-title">
         <p id="services-eyebrow"></p>
         <h2 id="services-title"></h2>
+    </div>
+
+    <div class="services-filters" role="group" aria-label="Ordenar servicios">
+        <button id="sort-by-price" type="button" class="services-filter is-active" data-sort="price">
+            <i class="fa-solid fa-arrow-down-short-wide"></i>&nbsp;Precio
+        </button>
+        <button id="sort-by-discount" type="button" class="services-filter" data-sort="discount">
+            <i class="fa-solid fa-arrow-down-wide-short"></i>&nbsp;Descuento
+        </button>
+        <button id="sort-by-name" type="button" class="services-filter" data-sort="name">
+            <i class="fa-solid fa-arrow-down-short-wide"></i>&nbsp;Nombre
+        </button>
     </div>
 
     <div id="services-grid" class="services-grid">
