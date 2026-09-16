@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VNYLT1LWV4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VNYLT1LWV4');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HS - Estudio de Belleza</title>
@@ -20,10 +29,10 @@
         <strong id="discount-banner-title"></strong>
     </p>
     <span id="discount-banner-counter" class="discount-banner-counter" aria-live="polite"></span>
-    <button type="button" class="discount-banner-close" aria-label="Cerrar banner de descuentos">&times;</button>
+    <button type="button" class="discount-banner-close" data-information="discount_banner_close" aria-label="Cerrar banner de descuentos">&times;</button>
 </div>
 
-<a id="whatsapp-button" href="https://wa.me/573005351412?text=Hola, Quisiera hacer una reservación." class="whatsapp-float" target="_blank">
+<a id="whatsapp-button" href="https://wa.me/573005351412?text=Hola, Quisiera hacer una reservación." class="whatsapp-float" data-information="floating_whatsapp_button" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
 
@@ -67,13 +76,13 @@
     </div>
 
     <div class="services-filters" role="group" aria-label="Ordenar servicios">
-        <button id="sort-by-price" type="button" class="services-filter is-active" data-sort="price">
+        <button id="sort-by-price" type="button" class="services-filter is-active" data-sort="price" data-information="sort_by_price">
             <i class="fa-solid fa-arrow-down-short-wide"></i>&nbsp;Precio
         </button>
-        <button id="sort-by-discount" type="button" class="services-filter" data-sort="discount">
+        <button id="sort-by-discount" type="button" class="services-filter" data-sort="discount" data-information="sort_by_discount">
             <i class="fa-solid fa-arrow-down-wide-short"></i>&nbsp;Descuento
         </button>
-        <button id="sort-by-name" type="button" class="services-filter" data-sort="name">
+        <button id="sort-by-name" type="button" class="services-filter" data-sort="name" data-information="sort_by_name">
             <i class="fa-solid fa-arrow-down-short-wide"></i>&nbsp;Nombre
         </button>
     </div>
@@ -133,7 +142,7 @@
         <div class="booking-map-flex">
             <div class="booking-form">
                 <h3>Reserva Online</h3>
-                <form>
+                <form data-information="online_booking_form">
                     <div class="form-group">
                         <label class="mobile-field-label" for="name">Nombre</label>
                         <div class="mobile-input-with-icon">
@@ -185,7 +194,7 @@
                     <button type="submit" class="btn-submit">Solicitar Reserva</button>
                 </form>
             </div>
-            <div id="location" class="map-container">
+            <div id="location" class="map-container" data-information="salon_location_map">
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.9830828190304!2d-76.50455883258817!3d3.487742953358075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a88731eefaeb%3A0x985162f3f0b5f9a!2sConjunto%20Portal%20del%20R%C3%ADo!5e0!3m2!1ses-419!2sco!4v1785451778649!5m2!1ses-419!2sco"
                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
@@ -216,9 +225,9 @@
 </footer>
 
 <div id="promo-popup" class="promo-popup" role="dialog" aria-modal="true" aria-labelledby="promo-popup-title" hidden>
-    <div class="promo-popup-backdrop" data-popup-close></div>
+    <div class="promo-popup-backdrop" data-popup-close data-information="promotion_popup_close_backdrop"></div>
     <div class="promo-popup-content">
-        <button type="button" class="promo-popup-close" data-popup-close aria-label="Cerrar promociones">&times;</button>
+        <button type="button" class="promo-popup-close" data-popup-close data-information="promotion_popup_close_button" aria-label="Cerrar promociones">&times;</button>
         <i class="fas fa-gift promo-popup-icon" aria-hidden="true"></i>
         <p id="promo-popup-eyebrow" class="promo-popup-eyebrow"></p>
         <h2 id="promo-popup-title"></h2>
