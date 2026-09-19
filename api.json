@@ -19,20 +19,20 @@
     "title": "Nuestros Servicios pensados para ti",
     "cards": [
       {
+        "value": "manicura-pedicura",
+        "icon": "fas fa-paintbrush",
+        "title": "Manicura & Pedicura",
+        "description": "Limpieza, Tradicional, Uñas tips, press on, semi, todo en Manicura o Pedicura para lucir unas manos y pies impecables y llenos de color.",
+        "price": 12000,
+        "fixedPrice": false,
+        "discount": 0
+      },
+      {
         "value": "corte",
         "icon": "fas fa-cut",
         "title": "Corte de Cabello",
         "description": "Cortes modernos, personalizados y de tendencia para renovar tu estilo.",
         "price": 15000,
-        "fixedPrice": false,
-        "discount": 0
-      },
-      {
-        "value": "manicura-pedicura",
-        "icon": "fas fa-paintbrush",
-        "title": "Manicura & Pedicura",
-        "description": "Tradicional, Uñas tips, press on, semi, todo en Manicura o Pedicura para lucir unas manos y pies impecables y llenos de color.",
-        "price": 20000,
         "fixedPrice": false,
         "discount": 0
       },
