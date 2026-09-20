@@ -50,7 +50,7 @@
         "icon": "fas fa-microscope",
         "title": "Diagnóstico Capilar",
         "description": "Revisión capilar con capilógrafo y lavado especializado del cuero cabelludo para conocer y atender mejor las necesidades de tu cabello.",
-        "price": 60000,
+        "price": 30000,
         "fixedPrice": true,
         "discount": 50
       },
