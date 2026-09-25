@@ -48,7 +48,7 @@
       {
         "value": "capilografo",
         "icon": "fas fa-microscope",
-        "title": "Diagnóstico Capilar",
+        "title": "Valoración Capilar",
         "description": "Revisión capilar con capilógrafo y lavado especializado del cuero cabelludo para conocer y atender mejor las necesidades de tu cabello.",
         "price": 30000,
         "fixedPrice": true,
@@ -130,7 +130,7 @@
         "value": "capilografo",
         "icon": "fas fa-hand-holding-medical",
         "title": "Plan Capilar Personalizado",
-        "description": "Diagnóstico con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
+        "description": "Valoración con capilógrafo, tratamiento capilar y peinado según las necesidades de tu cabello.",
         "price": 100000,
         "fixedPrice": false,
         "discount": 40
